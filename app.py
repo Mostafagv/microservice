@@ -20,3 +20,4 @@ if __name__ == '__main__':
     app.add_api('couch-service-docs.yaml', resolver=RestyResolver('api'))
     FlaskInjector(app=app.app, modules=[configure])
     app.run(port=int(os.environ.get('PORT', 2020)) , debug=True)  # os.environ is handy if you intend to launch on heroku
+#http://0.0.0.0:2020/v1.0/products/getproduct
