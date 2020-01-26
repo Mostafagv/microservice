@@ -14,7 +14,7 @@ schemes:
 paths:
   /products/getproduct: # we should append this to the base path for the specific request
       get:
-        tags: # what is tag?
+        tags: # what is tag??
         - public
         operationId: api.products.read_product  # for the get, operationId calls the function from the address specified
         responses:
